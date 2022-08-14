@@ -19,9 +19,9 @@ class dashboard extends StatelessWidget {
           CircleAvatar(
             radius: 17,
             backgroundImage: NetworkImage(
-                "https://4.bp.blogspot.com/-Jx21kNqFSTU/UXemtqPhZCI/AAAAAAAAh74/BMGSzpU6F48/s1600/funny-cat-pictures-047-001.jpg"
+                  "https://4.bp.blogspot.com/-Jx21kNqFSTU/UXemtqPhZCI/AAAAAAAAh74/BMGSzpU6F48/s1600/funny-cat-pictures-047-001.jpg"
             ),
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.grey,
           ),
           IconButton(icon: Icon(Icons.more_vert, color
               : Colors.grey[600],), onPressed: (){},),
@@ -34,32 +34,41 @@ class dashboard extends StatelessWidget {
             title: 'Niomic Academy\n\n\n',
             subtitle: 'Abdul jamil',
             color: Colors.green,
-
+            assetImage: AssetImage('images/background_class5.png'),
           ),
           ClassCard(
             title: 'Niomic Academy - Premium\n\n\n',
             subtitle: 'Abdul Jamil',
-              color: Colors.orange
-          ),
+              color: Colors.orange,
+            assetImage: AssetImage('images/background_class4.png'),
+
+
+    ),
 
           ClassCard(
             title: 'PPLG XI-2\n\n\n',
             subtitle: 'Anjas Syifatul Anam',
-              color: Colors.blue
-          ),
+              color: Colors.blue,
+            assetImage: AssetImage('images/background_class1.png'),
+    ),
           ClassCard(
             title: 'Front End Web Class\n\n\n',
             subtitle: 'Farhan Kurnia Pratama',
-              color: Colors.grey
-          ),
+              color: Colors.grey,
+            assetImage: AssetImage('images/background_class2.png'),
+
+    ),
           ClassCard(
               title: '2020 Kelas 9A\n\n\n',
               subtitle: 'Vre Aerobik Kreasi',
-              color: Colors.purpleAccent
-          ),
+              color: Colors.purpleAccent,
+            assetImage: AssetImage('images/background_class3.png'),
+
+    ),
         ],
       ),
     );
   }
 }
+
 
